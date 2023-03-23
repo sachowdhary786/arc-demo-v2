@@ -1,0 +1,1 @@
+export const GET_ALL_EVENTS_CALENDAR = 'api/eventCalendar/all';
