@@ -8,3 +8,5 @@ I would have paid more attention to the colour scheme, had I had more time, I wo
 With regards to the technical implementation of the Calendar, I tried to go down the route of using axios api library with Next.JS as this is a library that I have never fully used before but wanted to attempt to see if I was able to use it within the small time frame given. 
 Whilst I was able to receive the data from the API (after much coaxing and aggressive tendencies) I ran out of time in order to be able to store and display the data against the UI, as I would have had to read the documentation for both Axios and FullCalendar in order to understand how to get them to work together. 
 I wouldn't change my approach in how I went about this task, as it presented a great learning opportunity in order to expand my knowledge 
+
+In order to see the data being pulled through, you can open the developer tool and view the console log where it is being printed 
