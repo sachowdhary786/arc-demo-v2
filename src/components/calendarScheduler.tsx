@@ -24,11 +24,11 @@ const headerConfig = {
 export const CalendarScheduler = ({ eventsCalendar }: CalendarSchedulerProps) => {
 
   function payload(month: string) {
-    var [events, setEvents] = useState<AxiosResponse | null | void>(null);
+    // var [events, setEvents] = useState<AxiosResponse | null | void>(null);
     axios.post(auth, '', { headers: headerConfig }).then(async res => {
       await axios
         .get(dataUrl + month, { headers: { 'Authorization': `Bearer ${res.data}` } }).then(eventData => {
-          setEvents(eventData)
+
         })
     }).catch(error => {
       console.log(error);
